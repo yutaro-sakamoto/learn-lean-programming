@@ -1,0 +1,10 @@
+name = "learn-lean-programming"
+version = "0.1.0"
+defaultTargets = ["learn-lean-programming"]
+
+[[lean_lib]]
+name = "LearnLeanProgramming"
+
+[[lean_exe]]
+name = "learn-lean-programming"
+root = "Main"
